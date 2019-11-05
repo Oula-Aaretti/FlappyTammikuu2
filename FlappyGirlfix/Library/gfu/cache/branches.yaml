@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-11-03T16:05:36.013+02:00
-  initializedAtString: 2019-11-03T16:05:35.992+02:00
+  lastUpdatedAtString: 2019-11-05T13:06:25.104+02:00
+  initializedAtString: 2019-11-05T13:06:25.061+02:00
   localBranches:
   - name: master
-    tracking: 
+    tracking: origin/master
   remoteBranches:
   - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/TOTUXamk/FlappyGirl.git
+    url: https://github.com/TOTUXamk/FlappyBirdv2.345.677.git
     login: 
     user: 
     host: 
@@ -35,9 +35,9 @@ MonoBehaviour:
     values:
     - name: master
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/TOTUXamk/FlappyBirdv2.345.677.git
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
@@ -49,11 +49,11 @@ MonoBehaviour:
       - name: master
         remote:
           name: origin
-          url: https://github.com/TOTUXamk/FlappyGirl.git
+          url: https://github.com/TOTUXamk/FlappyBirdv2.345.677.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/TOTUXamk/FlappyGirl.git
+      url: https://github.com/TOTUXamk/FlappyBirdv2.345.677.git

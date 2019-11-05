@@ -824,7 +824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b96be1b280e114c42ab942fe8eb2815a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 2
   speedMultiplier: 1.1
   speedIncreaseMilestone: 300
   jumpForce: 8.39
@@ -3000,14 +3000,13 @@ MonoBehaviour:
     type: 3}
   generationPoint: {fileID: 1262793181}
   distanceBetween: 3
-  distanceBetweenMin: 7
-  distanceBetweenMax: 10
+  distanceBetweenMin: 3
+  distanceBetweenMax: 3
   thePlatforms:
   - {fileID: 1908751228306850, guid: 082ca0d14363cb44c9c5de7e4ac542f8, type: 3}
   - {fileID: 1081033376113340, guid: 0a5731c32d0f797408f3c616932f088d, type: 3}
   - {fileID: 1966226777145934, guid: f1bfade67c7af6b4c891c1f32d26f1a9, type: 3}
   - {fileID: 1671150358645362, guid: 23c83e9c2150da649832fed89dfd3936, type: 3}
-  - {fileID: 0}
   - {fileID: 1980103021045894, guid: 48c6d9f9faea92142ae1656cf4831375, type: 3}
   theObjectPool:
   - {fileID: 1350447288}
@@ -3017,7 +3016,7 @@ MonoBehaviour:
   - {fileID: 1963517916}
   - {fileID: 394883127}
   maxHeightPoint: {fileID: 1899599997}
-  maxHeightChange: 50.12
+  maxHeightChange: 74.5
   randomCoinThreshold: 70
   powerupHeight: 3
   powerupPool: {fileID: 0}
@@ -13181,7 +13180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinPool: {fileID: 1129206697}
-  distanceBetweenCoins: 0.82
+  distanceBetweenCoins: 0.13
 --- !u!1001 &1959738318
 PrefabInstance:
   m_ObjectHideFlags: 0
