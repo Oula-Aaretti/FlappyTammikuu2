@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1011436047127102}
+  m_IsPrefabParent: 1
+--- !u!1 &1011436047127102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4768064271703172}
+  - component: {fileID: 114660708255757866}
+  - component: {fileID: 102255831108971256}
+  - component: {fileID: 82339149824339582}
+  - component: {fileID: 23295577218165540}
+  m_Layer: 9
+  m_Name: MainGameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4768064271703172
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1011436047127102}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.4818697, y: 10.307138, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23295577218165540
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1011436047127102}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b09ce82c846b9ef4695ca166800451a9, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!82 &82339149824339582
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1011436047127102}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 731acda1fc76fb645be01c01ec98ab03, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 0
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!102 &102255831108971256
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1011436047127102}
+  m_Text: 123
+  m_OffsetZ: -2
+  m_CharacterSize: 0.18
+  m_LineSpacing: -1.24
+  m_Anchor: 0
+  m_Alignment: 1
+  m_TabSize: 0
+  m_FontSize: 26
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: b09ce82c846b9ef4695ca166800451a9, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!114 &114660708255757866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1011436047127102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8fba5683cadd2408bf3acf08818bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _indicator: {fileID: 100000, guid: bba6a4e9bfd3dd14399ecd57de62f9cc, type: 2}
+  _listOfGems:
+  - {fileID: 100000, guid: 3a378c31dbe7d4e43ae4e065dc31c05c, type: 2}
+  - {fileID: 100000, guid: de88e44dc3819d04a85279b333516934, type: 2}
+  - {fileID: 100000, guid: ce0891214b0c144448153339f2c34509, type: 2}
+  - {fileID: 100000, guid: b6c608a6447d1934b8fc4d9ed58d2c16, type: 2}
+  - {fileID: 100000, guid: aa0f8cd92a07f814494054c593bc92cf, type: 2}
+  _theJokerGem: {fileID: 100000, guid: 617b332903ec1264eaa49d1d884a7577, type: 2}
+  _theJokerGemPurcentToAppear: 5
+  _theRandomizeGem: {fileID: 100000, guid: a5a6b65be40989c48b7b519626fc4b53, type: 2}
+  _theRandomizePurcentToAppear: 2
+  _randomizeGemEffectWhenMatch: {fileID: 100000, guid: 13d580f2bd28eb0429142dfcd28591fc,
+    type: 2}
+  _theRandomizeNumberOfGems: 30
+  RandomizeSound: {fileID: 8300000, guid: e917745bf757e5e4f84b8fe73ec54a20, type: 3}
+  _theChangeFateGem: {fileID: 100000, guid: 19779b4e7c6c9fc4b921600b496dc016, type: 2}
+  _theChangeFatePurcentToAppear: 0.1
+  _changeFateGemEffectWhenMatch: {fileID: 100000, guid: 13d580f2bd28eb0429142dfcd28591fc,
+    type: 2}
+  ChangeFateSound: {fileID: 8300000, guid: 93b68228650b8bc4b92541e88f3b438b, type: 3}
+  _theFlappyBirdGem: {fileID: 100000, guid: cca8e404843023a4ba01da72c71f66ea, type: 2}
+  _theFlappyBirdPurcentToAppear: 1.6
+  _theFlappyBirdStartingPosition: {x: 0, y: 5, z: -5}
+  _theFlappyBirdCharacter: {fileID: 100000, guid: 331e0bc937dffff49a34bd48d9f022fd,
+    type: 2}
+  _flappyBirdCharacterXVelocity: 4
+  _flappyBirdGemEffectWhenMatch: {fileID: 100000, guid: 13d580f2bd28eb0429142dfcd28591fc,
+    type: 2}
+  FlappySound: {fileID: 8300000, guid: 82491b4a57c01904681b8daaf4af1fde, type: 3}
+  _theResetimeGem: {fileID: 100000, guid: 86bdb38f145048b4898aac4eac14f953, type: 2}
+  _theResetimePurcentToAppear: 0.7
+  _theResetimeGemEffectWhenMatch: {fileID: 100000, guid: 13d580f2bd28eb0429142dfcd28591fc,
+    type: 2}
+  _theResetimeAmount: 0.9
+  ResetTimeSound: {fileID: 8300000, guid: 4b5c1c56e65768347a46d8a34b99f9da, type: 3}
+  _theBlackHoleGem: {fileID: 100000, guid: cd365e734b4c1234eaed41e8442cc60e, type: 2}
+  _theBlackHolePurcentToAppear: 0.6
+  _theBlackHoleGemEffectWhenMatch: {fileID: 100000, guid: 13d580f2bd28eb0429142dfcd28591fc,
+    type: 2}
+  _theBlackHoleToAnimate: {fileID: 100000, guid: dc46ff96aa27e0547bc41278e40bc16f,
+    type: 2}
+  _theBlackNumberOfGemsToAspire: 3
+  BlackHoleSound: {fileID: 8300000, guid: 6fce714288e3464448b30002337c131e, type: 3}
+  _theBombGem: {fileID: 100000, guid: b4a978dbea7300146b69d9dc07d728d7, type: 2}
+  _theBombPurcentToAppear: 10
+  _theBombGemEffectWhenMatch: {fileID: 100000, guid: 13d580f2bd28eb0429142dfcd28591fc,
+    type: 2}
+  _theBombExplosion: {fileID: 100000, guid: 2f9e7030759a647e5b7ec0b46dd414f0, type: 2}
+  _theBombNumberOfGemsToExplode: 10
+  BombermanSound: {fileID: 8300000, guid: 3c81849758a0f75439c1fcbfdb01b552, type: 3}
+  _theFreezeGem: {fileID: 100000, guid: 919792167e97f2d48ad256bd92db5aa3, type: 2}
+  _theFreezePurcentToAppear: 1.6
+  _theFreezeGemEffectWhenMatch: {fileID: 0}
+  _theFreezeEffect: {fileID: 100000, guid: 919792167e97f2d48ad256bd92db5aa3, type: 2}
+  _theFreezeTimeToStay: 8
+  _theFreezeNumberOfGems: 1
+  FreezeSound: {fileID: 8300000, guid: cc7e50aef284f3547be5f3e3ad0e697b, type: 3}
+  _theIncreasetimeGem: {fileID: 100000, guid: 50317081033ff084aa8665222c392108, type: 2}
+  _theIncreasetimePurcentToAppear: 2.5
+  _theIncreasetimeGemEffectWhenMatch: {fileID: 100000, guid: bba07e2a462fad14c89b673b82055f6f,
+    type: 2}
+  _theIncreasetimeAmount: 0.9
+  IncreaseTimeSound: {fileID: 8300000, guid: 4b5c1c56e65768347a46d8a34b99f9da, type: 3}
+  _theBlindnessGem: {fileID: 100000, guid: 729180efc71d67b4b890b83e02fad65a, type: 2}
+  _theBlindnessPurcentToAppear: 0.5
+  _theBlindnessGemEffectWhenMatch: {fileID: 100000, guid: 13d580f2bd28eb0429142dfcd28591fc,
+    type: 2}
+  _theBlindnessToAnimate: {fileID: 100000, guid: ab9cd71c6ca79654db768c00a67644d8,
+    type: 2}
+  _theBlindnessTimeToStay: 10
+  BlindnessSound: {fileID: 8300000, guid: 7bb4148a7b28d0a439858616ca8f297a, type: 3}
+  _Tutorial: {fileID: 0}
+  _emptyGameobject: {fileID: 100000, guid: 18b2597ccd361364f82b80eb49c12b61, type: 2}
+  _particleEffect: {fileID: 100000, guid: f098e01493dd73746819531811e99d1b, type: 2}
+  _particleEffectWhenMatch: {fileID: 100000, guid: 13d580f2bd28eb0429142dfcd28591fc,
+    type: 2}
+  _particleEffectWhenMatchTheJoker: {fileID: 100000, guid: bba07e2a462fad14c89b673b82055f6f,
+    type: 2}
+  _canTransitDiagonally: 0
+  _scoreIncrement: 1
+  MatchSound: {fileID: 8300000, guid: e48f2e1adea851846a7272a76aae225a, type: 3}
+  JokerMatchSound: {fileID: 8300000, guid: e48f2e1adea851846a7272a76aae225a, type: 3}
+  _gridWidth: 8
+  _gridHeight: 9
+  _timerCoef: 0.02
+  _Time: {fileID: 0}
+  _PauseButton: {fileID: 0}
+  _ReloadButton: {fileID: 0}
+  _PlayButton: {fileID: 0}
+  _MenuButton: {fileID: 0}
+  _PausedBackground: {fileID: 0}
+  _TimeIsUp: {fileID: 0}
+  _Message: {fileID: 0}
+  _MessageEffectWhenShown: {fileID: 100000, guid: 13d580f2bd28eb0429142dfcd28591fc,
+    type: 2}
+  _CurrentScore: {fileID: 0}
+  _BestScore: {fileID: 0}
+  _CurrentLevel: {fileID: 0}
+  _BestLevel: {fileID: 0}
+  _ScoreBoard: {fileID: 0}
+  _Level: {fileID: 0}
+  _LevelTextValue: {fileID: 0}
+  _CountDown: {fileID: 0}
+  PowerSound: {fileID: 8300000, guid: 82491b4a57c01904681b8daaf4af1fde, type: 3}
+  MenuSound: {fileID: 8300000, guid: 07b02d0c63130e144ac731261ddb962d, type: 3}
+  _Amount: 1.15
+  LevelUpSound: {fileID: 8300000, guid: dd0be3eca78e6f049981cdd2eb4c9440, type: 3}
+  TimeUpSound: {fileID: 8300000, guid: 1c684d250fb489b4bb3e1c771f9522a4, type: 3}
+  BestScoreSound: {fileID: 8300000, guid: 36de08c128c17524db6143e3d746214a, type: 3}
+  EndSound: {fileID: 8300000, guid: 171ef2e8eefec0b4aa0a0ff4c66675fd, type: 3}

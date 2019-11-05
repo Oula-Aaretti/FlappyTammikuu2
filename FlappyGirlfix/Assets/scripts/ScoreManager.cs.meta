@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f069b56e47c20bc4d8e8f8df736937dd
+timeCreated: 1491900415
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - scoreText: {instanceID: 0}
+  - hiScoreText: {fileID: 114008592641001058, guid: 1ee48b0aed3fdc644bd45baf7dd1fab0,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
