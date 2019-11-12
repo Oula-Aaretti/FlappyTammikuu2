@@ -18,7 +18,7 @@ public class THGameManager1 : MonoBehaviour {
 	private ScoreManager1 theScoreManager1;
 	
 	public deathMenu1 theDeathScreen;
-	public bool powerupReset;
+	
 
 
 	// Use this for initialization
@@ -67,7 +67,7 @@ public class THGameManager1 : MonoBehaviour {
 		
 		powerupReset = true;*/
 		
-		SceneManager.LoadScene ("flappy");
+		SceneManager.LoadScene ("flappy2");
 	}
 	
 	

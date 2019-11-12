@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoreManager1 : MonoBehaviour {
 
@@ -41,10 +42,14 @@ public class ScoreManager1 : MonoBehaviour {
 			PlayerPrefs.SetFloat("ENNÄTYS1", hiScoreCount1);
 		}
 		
-		scoreText1.text = "PISTEET: " + Mathf.Round (scoreCount1);
-		hiScoreText1.text = "ENNÄTYS: " + Mathf.Round (hiScoreCount1);
+		scoreText1.text =  Mathf.Round (scoreCount1) + "/10 ";
+		hiScoreText1.text = "RECORD: " + Mathf.Round (hiScoreCount1);
 		
-		
+		if(scoreCount1 == 10)
+        {
+            SceneManager.LoadScene("flappy3");
+        }
+
 	}
 	
 	

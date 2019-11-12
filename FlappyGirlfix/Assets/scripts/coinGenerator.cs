@@ -11,6 +11,7 @@ public class coinGenerator : MonoBehaviour {
 
 	public void SpawnMilk (Vector3 startPosition)
 	{
+        
 		GameObject coin1 = coinPool.GetPooledObjects();
 		coin1.transform.position = startPosition;
 		coin1.SetActive(true);

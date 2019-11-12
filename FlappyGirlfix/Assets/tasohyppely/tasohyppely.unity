@@ -3021,6 +3021,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114005278575301922, guid: 9583c1908b8a28140a4b8fa9b2113b58,
+        type: 3}
+      propertyPath: theGameManager
+      value: 
+      objectReference: {fileID: 1525932843}
+    - target: {fileID: 114005278575301922, guid: 9583c1908b8a28140a4b8fa9b2113b58,
+        type: 3}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 785644117}
+    - target: {fileID: 114005278575301922, guid: 9583c1908b8a28140a4b8fa9b2113b58,
+        type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 402550870}
     - target: {fileID: 4737112879414096, guid: 9583c1908b8a28140a4b8fa9b2113b58, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.53
@@ -3053,21 +3068,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 21
       objectReference: {fileID: 0}
-    - target: {fileID: 114005278575301922, guid: 9583c1908b8a28140a4b8fa9b2113b58,
-        type: 3}
-      propertyPath: theGameManager
-      value: 
-      objectReference: {fileID: 1525932843}
-    - target: {fileID: 114005278575301922, guid: 9583c1908b8a28140a4b8fa9b2113b58,
-        type: 3}
-      propertyPath: jumpSound
-      value: 
-      objectReference: {fileID: 785644117}
-    - target: {fileID: 114005278575301922, guid: 9583c1908b8a28140a4b8fa9b2113b58,
-        type: 3}
-      propertyPath: deathSound
-      value: 
-      objectReference: {fileID: 402550870}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9583c1908b8a28140a4b8fa9b2113b58, type: 3}
 --- !u!1 &324327336
@@ -11591,7 +11591,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8ef43a4cd0afa7142875bfe9736dbf48, type: 2}
+  - {fileID: 2100000, guid: 9009c38402d8ff740acfad5cf8026fb3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18471,7 +18471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1959058856
 Transform:
   m_ObjectHideFlags: 0

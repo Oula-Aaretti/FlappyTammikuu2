@@ -54,7 +54,7 @@ public Button start3;
 	}
 	public void StartLevel3()
 	{
-		SceneManager.LoadScene ("flappy");
+		SceneManager.LoadScene ("flappy2");
 	}
     
     public void ExitGame()
