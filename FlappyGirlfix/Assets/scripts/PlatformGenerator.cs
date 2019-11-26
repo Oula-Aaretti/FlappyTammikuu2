@@ -89,13 +89,7 @@ public class PlatformGenerator : MonoBehaviour {
 			}
 			
 			
-			if(Random.Range(0f, 100f) < powerupThreshold)
-			{
-				GameObject pro = powerupPool.GetPooledObjects();
-				
-				pro.transform.position = transform.position + new Vector3(distanceBetween -1f, Random.Range (powerupHeight /2f, powerupHeight), 0f);
-				pro.SetActive(true);
-			}
+			
 			
 			
 			
