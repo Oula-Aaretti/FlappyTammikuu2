@@ -50,11 +50,11 @@ public Button start3;
 	
 	public void StartLevel2()
 	{
-		SceneManager.LoadScene ("tasohyppely");
+		SceneManager.LoadScene ("classicToim");
 	}
 	public void StartLevel3()
 	{
-		SceneManager.LoadScene ("flappy2");
+		SceneManager.LoadScene ("intro");
 	}
     
     public void ExitGame()

@@ -69,7 +69,9 @@
     <Compile Include="Assets\scripts\coinGenerator.cs" />
     <Compile Include="Assets\scripts\deathMenu.cs" />
     <Compile Include="Assets\scripts\deathMenu2.cs" />
+    <Compile Include="Assets\scripts\IntroControl.cs" />
     <Compile Include="Assets\scripts\level1\deathMenu1.cs" />
+    <Compile Include="Assets\scripts\level1\IntroManager.cs" />
     <Compile Include="Assets\scripts\level1\pauseMenu1.cs" />
     <Compile Include="Assets\scripts\level1\pickup1.cs" />
     <Compile Include="Assets\scripts\level1\ScoreManager1.cs" />
