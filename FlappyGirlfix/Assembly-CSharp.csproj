@@ -63,6 +63,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\flappy\animatiio.cs" />
+    <Compile Include="Assets\scripts\bossScript\CameraControllerBOSS.cs" />
+    <Compile Include="Assets\scripts\bossScript\deathMenuL2.cs" />
+    <Compile Include="Assets\scripts\bossScript\pauseMenuL2.cs" />
+    <Compile Include="Assets\scripts\bossScript\pickupBOSS.cs" />
+    <Compile Include="Assets\scripts\bossScript\PlayerControllerBOSS.cs" />
+    <Compile Include="Assets\scripts\bossScript\ScoreManagerBOSS.cs" />
+    <Compile Include="Assets\scripts\bossScript\THGameManagerBOSS.cs" />
     <Compile Include="Assets\scripts\CameraController.cs" />
     <Compile Include="Assets\scripts\CameraController1.cs" />
     <Compile Include="Assets\scripts\click.cs" />
@@ -82,8 +89,8 @@
     <Compile Include="Assets\scripts\level2\ScoreManagerL2.cs" />
     <Compile Include="Assets\scripts\level2\THGameManagerL2.cs" />
     <Compile Include="Assets\scripts\level2r\CameraControllerL2r.cs" />
-    <Compile Include="Assets\scripts\level2r\deathMenuL2.cs" />
-    <Compile Include="Assets\scripts\level2r\pauseMenuL2.cs" />
+    <Compile Include="Assets\scripts\level2r\deathMenuBOSS.cs" />
+    <Compile Include="Assets\scripts\level2r\pauseMenuBOSS.cs" />
     <Compile Include="Assets\scripts\level2r\pickupL2r.cs" />
     <Compile Include="Assets\scripts\level2r\PlayerControllerL2r.cs" />
     <Compile Include="Assets\scripts\level2r\ScoreManagerL2r.cs" />
