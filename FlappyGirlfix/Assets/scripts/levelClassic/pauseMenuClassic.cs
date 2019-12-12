@@ -28,7 +28,7 @@ public class pauseMenuClassic : MonoBehaviour {
 	{
 		Time.timeScale = 1f;
 		pauseMenuu.SetActive(false);
-		FindObjectOfType<THGameManager1>().Reset();
+		FindObjectOfType<THGameManagerClassic>().Reset();
 	}
 	
 	public void QuitTiMain()

@@ -2476,7 +2476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37c85983fe956f4d98959ecac1ab98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObject: {fileID: 1908751228306850, guid: 57492a62685538247868dc38319e4129,
+  pooledObject: {fileID: 1908751228306850, guid: e666a3a0d7f594b448d17941f832cdba,
     type: 3}
   pooledAmount: 1
 --- !u!1 &113269665
@@ -3523,8 +3523,8 @@ GameObject:
   - component: {fileID: 154214605}
   - component: {fileID: 154214608}
   - component: {fileID: 154214607}
-  - component: {fileID: 154214610}
   - component: {fileID: 154214609}
+  - component: {fileID: 154214611}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -3662,7 +3662,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &154214610
+--- !u!114 &154214611
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3671,20 +3671,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 154214604}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b96be1b280e114c42ab942fe8eb2815a, type: 3}
+  m_Script: {fileID: 11500000, guid: d540c785fa77f424e9e9d8c502aac494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 3.5
   speedMultiplier: 1.1
-  speedIncreaseMilestone: 1e+25
-  jumpForce: 7
+  speedIncreaseMilestone: 10000
+  jumpForce: 7.6
   jumpTime: 3.28
   groundCheck: {fileID: 554052812}
   groundCheckRadius: 0
   whatIsGround:
     serializedVersion: 2
     m_Bits: 0
-  theGameManager1: {fileID: 1525932843}
+  theGameManagerClassic: {fileID: 1525932843}
   jumpSound: {fileID: 667173875}
   deathSound: {fileID: 1450764877}
 --- !u!1001 &162318869
@@ -7682,7 +7682,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -189, y: -434}
+  m_AnchoredPosition: {x: -175, y: -434}
   m_SizeDelta: {x: 252.3, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &375217080
@@ -7936,9 +7936,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37c85983fe956f4d98959ecac1ab98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObject: {fileID: 1908751228306850, guid: 57492a62685538247868dc38319e4129,
+  pooledObject: {fileID: 1908751228306850, guid: d838066dcc850dc47b0e75aa2df58a30,
     type: 3}
-  pooledAmount: 100
+  pooledAmount: 1
 --- !u!1 &397518275
 GameObject:
   m_ObjectHideFlags: 0
@@ -9196,9 +9196,18 @@ MonoBehaviour:
   - {fileID: 1908751228306850, guid: 57492a62685538247868dc38319e4129, type: 3}
   - {fileID: 1908751228306850, guid: 1c99383c915c4534fb751cce4a3b1217, type: 3}
   - {fileID: 1908751228306850, guid: 331ad295a0591b041a38ef584b3fe806, type: 3}
-  - {fileID: 1908751228306850, guid: 5b60c45df4f1e8940921f7f643ea032a, type: 3}
+  - {fileID: 1908751228306850, guid: 0e0c622bcc1c43244b8d3bcf80386af9, type: 3}
   - {fileID: 1908751228306850, guid: 6aafcc61881eb214996b1e08784f074e, type: 3}
   - {fileID: 1908751228306850, guid: 1c99383c915c4534fb751cce4a3b1217, type: 3}
+  - {fileID: 1908751228306850, guid: 1c99383c915c4534fb751cce4a3b1217, type: 3}
+  - {fileID: 1908751228306850, guid: 9333002bab5f7af4584db9f664e87d49, type: 3}
+  - {fileID: 1908751228306850, guid: 3c8b9c4823683824a8dbc7c8f9e4e77a, type: 3}
+  - {fileID: 1908751228306850, guid: 0e0c622bcc1c43244b8d3bcf80386af9, type: 3}
+  - {fileID: 1908751228306850, guid: e666a3a0d7f594b448d17941f832cdba, type: 3}
+  - {fileID: 1908751228306850, guid: cc104f863b5d84b4abaa085953f9db2a, type: 3}
+  - {fileID: 1908751228306850, guid: 1841d2bb34a7d6c40885357ada8df626, type: 3}
+  - {fileID: 1908751228306850, guid: e0cc8a8c1c07f8541bfec0235682044a, type: 3}
+  - {fileID: 1908751228306850, guid: 5036abacc28de9e4185b1011cd61210b, type: 3}
   theObjectPool:
   - {fileID: 1350447288}
   - {fileID: 1925741855}
@@ -9206,9 +9215,14 @@ MonoBehaviour:
   - {fileID: 1653271269}
   - {fileID: 1963517916}
   - {fileID: 394883127}
+  - {fileID: 608110269}
+  - {fileID: 2021604095}
+  - {fileID: 1097460189}
+  - {fileID: 1520180211}
+  - {fileID: 105563337}
   maxHeightPoint: {fileID: 1899599997}
-  maxHeightChange: 52.91
-  randomCoinThreshold: 70
+  maxHeightChange: 20
+  randomCoinThreshold: 0
   powerupHeight: 3
   powerupPool: {fileID: 0}
   powerupThreshold: 5
@@ -12292,7 +12306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37c85983fe956f4d98959ecac1ab98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObject: {fileID: 1908751228306850, guid: 57492a62685538247868dc38319e4129,
+  pooledObject: {fileID: 1908751228306850, guid: 6aafcc61881eb214996b1e08784f074e,
     type: 3}
   pooledAmount: 1
 --- !u!1 &608501591
@@ -14680,10 +14694,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 720372541}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e8db22a09522744ab190b46eef245dd, type: 3}
+  m_Script: {fileID: 11500000, guid: f2612de6a9fe32241aee7a97bef81cc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thePlayer: {fileID: 0}
+  thePlayer: {fileID: 154214611}
 --- !u!1 &725704560
 GameObject:
   m_ObjectHideFlags: 0
@@ -22252,7 +22266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37c85983fe956f4d98959ecac1ab98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObject: {fileID: 1908751228306850, guid: 57492a62685538247868dc38319e4129,
+  pooledObject: {fileID: 1908751228306850, guid: 3c8b9c4823683824a8dbc7c8f9e4e77a,
     type: 3}
   pooledAmount: 1
 --- !u!1 &1103500518
@@ -24801,7 +24815,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1646297985}
+      - m_Target: {fileID: 0}
         m_MethodName: QuitTiMain
         m_Mode: 1
         m_Arguments:
@@ -28044,9 +28058,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37c85983fe956f4d98959ecac1ab98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObject: {fileID: 1908751228306850, guid: 57492a62685538247868dc38319e4129,
+  pooledObject: {fileID: 1908751228306850, guid: c87a704f9411a0247a2eea70be6a467d,
     type: 3}
-  pooledAmount: 100
+  pooledAmount: 1
 --- !u!1 &1359203658
 GameObject:
   m_ObjectHideFlags: 0
@@ -31670,7 +31684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37c85983fe956f4d98959ecac1ab98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObject: {fileID: 1908751228306850, guid: 57492a62685538247868dc38319e4129,
+  pooledObject: {fileID: 1908751228306850, guid: 0e0c622bcc1c43244b8d3bcf80386af9,
     type: 3}
   pooledAmount: 1
 --- !u!1 &1525362604
@@ -31782,12 +31796,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1525932842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fba9701e011894f4ea26290ac2862a5d, type: 3}
+  m_Script: {fileID: 11500000, guid: de04b955026b36c4e9e9fc8e573d73c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   platformGenerator: {fileID: 459618378}
-  thePlayer: {fileID: 154214610}
-  theDeathScreen: {fileID: 0}
+  thePlayer: {fileID: 154214611}
+  theDeathScreen: {fileID: 1646297985}
 --- !u!4 &1525932844
 Transform:
   m_ObjectHideFlags: 0
@@ -34008,7 +34022,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1646297980}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f03461dd11c836b418092c08e7677937, type: 3}
+  m_Script: {fileID: 11500000, guid: 8f76b04364d28434a901605100e3b832, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mainMenuLevel: menu
@@ -34140,7 +34154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObject: {fileID: 1908751228306850, guid: 5b60c45df4f1e8940921f7f643ea032a,
     type: 3}
-  pooledAmount: 100
+  pooledAmount: 1
 --- !u!1 &1664629373
 GameObject:
   m_ObjectHideFlags: 0
@@ -34516,7 +34530,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1646297985}
+      - m_Target: {fileID: 0}
         m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
@@ -38564,9 +38578,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37c85983fe956f4d98959ecac1ab98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObject: {fileID: 1908751228306850, guid: 331ad295a0591b041a38ef584b3fe806,
+  pooledObject: {fileID: 1908751228306850, guid: 5036abacc28de9e4185b1011cd61210b,
     type: 3}
-  pooledAmount: 100
+  pooledAmount: 1
 --- !u!1 &1920017634
 GameObject:
   m_ObjectHideFlags: 0
@@ -38693,7 +38707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37c85983fe956f4d98959ecac1ab98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObject: {fileID: 1908751228306850, guid: 57492a62685538247868dc38319e4129,
+  pooledObject: {fileID: 1908751228306850, guid: 8e20984573cf3344b90cc643d1ac16d0,
     type: 3}
   pooledAmount: 100
 --- !u!1 &1932497782
@@ -39803,7 +39817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37c85983fe956f4d98959ecac1ab98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObject: {fileID: 1908751228306850, guid: 6aafcc61881eb214996b1e08784f074e,
+  pooledObject: {fileID: 1908751228306850, guid: 5c403242590c5354c81c39e26d04ede0,
     type: 3}
   pooledAmount: 100
 --- !u!1 &1971987246
@@ -40611,7 +40625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37c85983fe956f4d98959ecac1ab98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObject: {fileID: 1908751228306850, guid: 57492a62685538247868dc38319e4129,
+  pooledObject: {fileID: 1908751228306850, guid: 0e0c622bcc1c43244b8d3bcf80386af9,
     type: 3}
   pooledAmount: 1
 --- !u!1 &2025102134
