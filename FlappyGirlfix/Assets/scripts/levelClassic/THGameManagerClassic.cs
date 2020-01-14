@@ -17,7 +17,7 @@ public class THGameManagerClassic : MonoBehaviour {
 	
 	private ScoreManagerClassic theScoreManagerClassic;
 	
-	public deathMenu1 theDeathScreen;
+	public deathMenuClassic theDeathScreen;
 	
 
 
@@ -41,8 +41,8 @@ public class THGameManagerClassic : MonoBehaviour {
         theScoreManagerClassic.scoreIncreasingClassic = false;
 		thePlayer.gameObject.SetActive(false);
 		
-		//theDeathScreen.gameObject.SetActive(true);
-        SceneManager.LoadScene("flappy2");
+		theDeathScreen.gameObject.SetActive(true);
+        //SceneManager.LoadScene("classicToim");
         //StartCoroutine ("RestartGameCo");
 
     }
@@ -67,7 +67,7 @@ public class THGameManagerClassic : MonoBehaviour {
 		
 		powerupReset = true;*/
 		
-		SceneManager.LoadScene ("flappy2");
+		SceneManager.LoadScene ("classicToim");
 	}
 	
 	

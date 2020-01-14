@@ -43,7 +43,7 @@ public class ScoreManagerClassic : MonoBehaviour {
 		}
 
         scoreTextClassic.text =  Mathf.Round (scoreCountClassic) + " ";
-		hiScoreText1.text = "HIGH SCORE: " + Mathf.Round (hiScoreCount1);
+		hiScoreText1.text = "RECORD: " + Mathf.Round (hiScoreCount1);
 		
 		if(scoreCountClassic >= hiScoreCount1)
         {

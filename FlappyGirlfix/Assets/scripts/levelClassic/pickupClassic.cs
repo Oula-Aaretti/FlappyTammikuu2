@@ -5,14 +5,14 @@ using UnityEngine;
 public class pickupClassic : MonoBehaviour {
 
 
-	public int scoreToGiveL2r;
+	public int scoreToGiveClassic;
 	
-	private ScoreManagerL2r theScoreManagerL2r;
+	private ScoreManagerClassic theScoreManagerClassic;
     private AudioSource coinSound;
 
     // Use this for initialization
     void Start () {
-        theScoreManagerL2r = FindObjectOfType<ScoreManagerL2r>();
+        theScoreManagerClassic = FindObjectOfType<ScoreManagerClassic>();
         coinSound = GameObject.Find("maitoo").GetComponent<AudioSource>();
     }
 	
@@ -26,7 +26,7 @@ public class pickupClassic : MonoBehaviour {
 	{
 		if(other.gameObject.name == "Player")
 		{
-            theScoreManagerL2r.AddScoreL2r(scoreToGiveL2r);
+            theScoreManagerClassic.AddScoreClassic(scoreToGiveClassic);
 			gameObject.SetActive(false);
             coinSound.Play();
         }

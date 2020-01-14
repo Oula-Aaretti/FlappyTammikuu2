@@ -12,7 +12,7 @@ public class deathMenuClassic : MonoBehaviour {
 	
 	public void RestartGame()
 	{
-		FindObjectOfType<THGameManager1>().Reset();
+		FindObjectOfType<THGameManagerClassic>().Reset();
 	}
 	
 	public void QuitTiMain()
