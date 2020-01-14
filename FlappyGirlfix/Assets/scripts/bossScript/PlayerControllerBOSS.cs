@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControllerBOSS: MonoBehaviour {
 
@@ -137,21 +138,26 @@ public class PlayerControllerBOSS: MonoBehaviour {
 			
 		
 	}
-	
-	
-	void OnCollisionEnter2D (Collision2D other)
-	{
-		if(other.gameObject.tag == "killbox"){
 
-            theGameManagerBOSS.RestartGame1();
-            
-            moveSpeed = moveSpeedStore;
+
+	void OnCollisionEnter2D(Collision2D other)
+	{
+		if (other.gameObject.tag == "killbox")
+		{
+
+			theGameManagerBOSS.RestartGame1();
+
+			moveSpeed = moveSpeedStore;
 			speedMilestoneCount = speedMilestoneCountStore;
 			speedIncreaseMilestone = speedIncreaseMilestoneStore;
-            deathSound.Play();
-        }
-	}
+			deathSound.Play();
+		}
+		if (other.gameObject.tag == "end")
+		{
 
-	
+			SceneManager.LoadScene("menu");
+		}
+
+	}
 	
 }

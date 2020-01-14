@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 13
+  controlID: 131
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 14
+  controlID: 66
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 15
+  controlID: 67
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -385,7 +385,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3073feff4818ffff76d4ffffc6efffff2af5ffff72fbffff526d0000826f00008c73000034750000f2760100c0770100
+      m_ExpandedIDs: 7a4ff9ffae1bfcff962bfcffea39fcff246dfcffc672fcff8481fcff2c8bfcff189afcffd49afcff48e4fcff2204fdff3a49fdff78fbffff7222010014f009006cf60900
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -445,9 +445,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 396.68478, y: 272.48325, z: -3.8882523}
+    m_Target: {x: 65.59628, y: 3.876395, z: -1.8790618}
     speed: 2
-    m_Value: {x: 396.68478, y: 272.48325, z: -3.8882523}
+    m_Value: {x: 65.59628, y: 3.876395, z: -1.8790618}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -476,13 +476,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.01677751, y: -0.061156865, z: 0.0010290812, w: -0.997991}
+    m_Target: {x: -0.07317008, y: 0.12413829, z: -0.009203492, w: -0.98957163}
     speed: 2
-    m_Value: {x: -0.016777435, y: -0.061156597, z: 0.0010290766, w: -0.9979866}
+    m_Value: {x: -0.07318012, y: 0.122647606, z: -0.009093268, w: -0.9897068}
   m_Size:
-    m_Target: 804.94354
+    m_Target: 45.664124
     speed: 2
-    m_Value: 770.2809
+    m_Value: 45.665836
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -790,20 +790,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/flappy
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/flappy
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\tonit\\OneDrive\\Ty\xF6p\xF6yt\xE4\\Peliprojekti1\\FlappyGirlfix\\FlappyGirlfix"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 54}
-    m_SelectedIDs: 982d0000
-    m_LastClickedID: 11672
-    m_ExpandedIDs: 00000000982d0000002e0000563000009a300000c8300000023100005c3200006e32000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: fa2d0000
+    m_LastClickedID: 11770
+    m_ExpandedIDs: 00000000922d0000fa2d00005030000094300000c2300000fc300000563200006832000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -831,7 +831,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000982d0000002e0000563000009a300000c8300000023100005c3200006e320000
+    m_ExpandedIDs: 00000000922d0000fa2d00005030000094300000c2300000fc3000005632000068320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -883,7 +883,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 88}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 153
