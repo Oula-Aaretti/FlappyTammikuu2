@@ -6905,21 +6905,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6782787007464794365, guid: e6ead1966654f1f4da9a266a8805c4da,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 6782787007464794365, guid: e6ead1966654f1f4da9a266a8805c4da,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.9273058
-      objectReference: {fileID: 0}
-    - target: {fileID: 6782787007464794365, guid: e6ead1966654f1f4da9a266a8805c4da,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.92
-      objectReference: {fileID: 0}
     - target: {fileID: 6782787008179580022, guid: e6ead1966654f1f4da9a266a8805c4da,
         type: 3}
       propertyPath: m_Offset.y
@@ -6939,6 +6924,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.x
       value: 20.454777
+      objectReference: {fileID: 0}
+    - target: {fileID: 6782787007464794365, guid: e6ead1966654f1f4da9a266a8805c4da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 6782787007464794365, guid: e6ead1966654f1f4da9a266a8805c4da,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9273058
+      objectReference: {fileID: 0}
+    - target: {fileID: 6782787007464794365, guid: e6ead1966654f1f4da9a266a8805c4da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.92
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6ead1966654f1f4da9a266a8805c4da, type: 3}
@@ -41399,7 +41399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbb5e0b3e32118c49b60fe0d349fd22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.3
+  speed: 0.7
 --- !u!23 &2102978625
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41417,7 +41417,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e88c51599c074f04a8c9f8f96fc8fef9, type: 2}
+  - {fileID: 2100000, guid: 0236bd07ae8fa514485b17f0d8cd95c6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
