@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/flappy/level3.unity
-=======
-- path: Assets/flappy/level4.unity
->>>>>>> d95b75be2087727e7cfaaff8f5ddf10fa16f8f8b
+- path: Assets/menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
